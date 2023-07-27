@@ -24,7 +24,7 @@ export default function Curriculum() {
 
       <div className="flex flex-col lg:flex-row">
         <div className="flex-1">
-          <div className="xl:prose-xl prose prose-indigo mb-10 max-w-none dark:prose-invert sm:prose-sm lg:prose-lg">
+          <div className="prose prose-indigo mb-10 max-w-none dark:prose-invert sm:prose-sm lg:prose-lg xl:prose-xl">
             <h2>Professional Experience</h2>
           </div>
 

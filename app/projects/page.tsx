@@ -22,6 +22,10 @@ export default function Projects() {
         </p>
       </section>
 
+      <div className="prose prose-indigo mb-10 max-w-none dark:prose-invert sm:prose-sm lg:prose-lg xl:prose-xl">
+        <h2>Projects</h2>
+      </div>
+
       <div className="flex flex-wrap justify-between gap-10">
         {projects.map((project, index) => {
           return (
@@ -29,9 +33,9 @@ export default function Projects() {
               key={index}
               className="flex max-w-xs flex-col gap-3 rounded-lg border border-gray-200 bg-white p-6 shadow-md dark:border-gray-700 dark:bg-gray-800 md:max-w-md"
             >
-              <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h3 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 {project.title}
-              </h5>
+              </h3>
               <div
                 className="prose prose-sm prose-indigo dark:prose-invert"
                 dangerouslySetInnerHTML={{ __html: project.description }}

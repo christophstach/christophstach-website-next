@@ -20,7 +20,6 @@ export const metadata: Metadata = {
     description:
       "Christoph Stach is a software engineer with a passion for webtechnologies, especially frontend development",
     url: "https://christophstach.me",
-    images: "/og.png",
   },
 };
 

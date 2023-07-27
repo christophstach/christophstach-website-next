@@ -11,6 +11,7 @@ import SocialLink from "@/components/SocialLink";
 import mainNavLinks from "@/data/main-nav-links";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://christophstach.me"),
   title: "Christoph Stach",
   description:
     "Christoph Stach is a software engineer with a passion for webtechnologies, especially frontend development",

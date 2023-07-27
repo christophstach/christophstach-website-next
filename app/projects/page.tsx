@@ -26,12 +26,12 @@ export default function Projects() {
         </p>
       </section>
 
-      <div className="flex flex-wrap justify-between gap-10">
+      <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project, index) => {
           return (
             <div
               key={index}
-              className="flex max-w-xs flex-col gap-3 rounded-lg border border-gray-200 bg-white p-6 shadow-md dark:border-gray-700 dark:bg-gray-800 md:max-w-md"
+              className="flex flex-col gap-3 rounded-lg border border-gray-200 bg-white p-6 shadow-md dark:border-gray-700 dark:bg-gray-800"
             >
               <h3 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 {project.title}

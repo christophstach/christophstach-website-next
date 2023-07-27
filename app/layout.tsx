@@ -50,14 +50,16 @@ export default function RootLayout({
                 </small>
               </div>
               <div className="flex justify-end gap-2.5">
-                <SocialLink href="https://www.linkedin.com/in/christoph-stach-7586b958">
+                <SocialLink
+                  ariaLabel="LinkedIn Profile"
+                  href="https://www.linkedin.com/in/christoph-stach-7586b958"
+                >
                   <Linkedin />
                 </SocialLink>
-
-                <SocialLink href="https://www.facebook.com/christoph.stach">
-                  <Facebook />
-                </SocialLink>
-                <SocialLink href="https://github.com/christophstach">
+                <SocialLink
+                  ariaLabel="Github Profile"
+                  href="https://github.com/christophstach"
+                >
                   <Github />
                 </SocialLink>
               </div>

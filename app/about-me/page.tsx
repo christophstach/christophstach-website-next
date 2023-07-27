@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function AboutMe() {
   return (
     <div className="prose prose-indigo mx-auto dark:prose-invert sm:prose-sm lg:prose-lg xl:prose-xl">
-      <h2>Projects</h2>
+      <h2>About Me</h2>
 
       <p>
         I started software development at the age of 13. It quickly became a

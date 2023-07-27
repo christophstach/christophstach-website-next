@@ -13,6 +13,10 @@ export const metadata: Metadata = {
 export default function Projects() {
   return (
     <div>
+      <div className="prose prose-indigo mb-10 max-w-none dark:prose-invert sm:prose-sm lg:prose-lg xl:prose-xl">
+        <h2>Projects</h2>
+      </div>
+
       <section className="mb-10">
         <p>
           Here, you{"'"}ll find a selection of the projects I{"'"}ve worked on
@@ -21,10 +25,6 @@ export default function Projects() {
           reflect that passion for growth and innovation.
         </p>
       </section>
-
-      <div className="prose prose-indigo mb-10 max-w-none dark:prose-invert sm:prose-sm lg:prose-lg xl:prose-xl">
-        <h2>Projects</h2>
-      </div>
 
       <div className="flex flex-wrap justify-between gap-10">
         {projects.map((project, index) => {

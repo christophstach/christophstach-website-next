@@ -13,6 +13,10 @@ export const metadata: Metadata = {
 export default function Curriculum() {
   return (
     <div>
+      <div className="prose prose-indigo mb-10 max-w-none dark:prose-invert sm:prose-sm lg:prose-lg xl:prose-xl">
+        <h2>Curriculum</h2>
+      </div>
+
       <section className="mb-10">
         <p>
           On this page, you{"'"}ll find a rundown of my education, professional

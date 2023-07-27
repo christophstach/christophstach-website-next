@@ -10,6 +10,8 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <div className="prose prose-indigo mx-auto dark:prose-invert sm:prose-sm lg:prose-lg xl:prose-xl">
+      <h2>Home</h2>
+
       <p>
         Hey there! Thanks for stopping by my personal website. My name is
         Christoph and I{"'"}m a software developer, data scientist, and tech

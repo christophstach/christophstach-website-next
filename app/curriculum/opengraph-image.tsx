@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import { ImageResponse } from "@vercel/og";
+import { ImageResponse } from "next/server";
 
 export const runtime = "edge";
 export const size = {
@@ -7,7 +7,7 @@ export const size = {
   height: 630,
 };
 
-export default async function OpengraphImage() {
+export default async function Image() {
   const imageUrl = new URL("../../images/hero.png", import.meta.url);
   const imageData = await fetch(imageUrl).then(
     (res) => res.arrayBuffer() as unknown as string,
@@ -36,6 +36,8 @@ export default async function OpengraphImage() {
         />
       </div>
     ),
-    size,
+    {
+      ...size,
+    },
   );
 }

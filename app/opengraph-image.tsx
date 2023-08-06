@@ -1,39 +1,40 @@
+/* eslint-disable @next/next/no-img-element */
 import { ImageResponse } from "@vercel/og";
-import Image from "next/image";
-
-import heroWebp from "@/images/hero.webp";
 
 export const runtime = "edge";
 
-export default function OpengraphImage() {
+export default async function OpengraphImage() {
+  const imageUrl = new URL("../images/hero.png", import.meta.url);
+  const imageData = await fetch(imageUrl).then(
+    (res) => res.arrayBuffer() as unknown as string,
+  );
+
   return new ImageResponse(
     (
-      <div
-        style={{
-          fontSize: 128,
-          background: "white",
-          width: "100%",
-          height: "100%",
-          display: "flex",
-          textAlign: "center",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
-        <Image
-          width={288}
-          height={288}
-          className="h-32 w-32 rounded-full object-cover drop-shadow-xl md:h-72 md:w-72"
-          src={heroWebp}
-          alt="Hero section image"
-          loading="eager"
-          priority
+      <div tw="bg-neutral-50 flex justify-center items-center w-full h-full">
+        <div tw="flex flex-col max-w-screen-sm">
+          <h1 tw="text-5xl font-extrabold leading-none tracking-tight text-gray-900">
+            Hi, I am Christoph!
+          </h1>
+
+          <p tw="font-light text-gray-500">
+            A software engineer with a passion for webtechnologies, especially
+            frontend development.
+          </p>
+        </div>
+
+        <img
+          width="288"
+          height="288"
+          tw="rounded-full"
+          src={imageData}
+          alt="Logo"
         />
       </div>
     ),
     {
       width: 1200,
-      height: 600,
+      height: 630,
     },
   );
 }

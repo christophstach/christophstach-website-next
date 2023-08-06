@@ -27,10 +27,10 @@ const projects: Project[] = [
   {
     title: "Personal website",
     description: `
-      Introducing a revamped version of my personal website, designed to exude a contemporary and invigorating atmosphere. The previous iteration relied on Angular and Bootstrap, but this edition employs cutting-edge technologies for an enhanced user experience. Featuring server-side rendering and the innovative SolidStart metaframework, the site now also offers a sleek dark mode option.
+    Redesign website with a dark mode option, replacing the previous Angular with Bootstrap iteration.
     `,
-    tags: ["TypeScript", "SolidJS", "SolidStart", "TailwindCSS"],
-    website: "https://christophstach.me",
+    tags: ["TypeScript", "React", "Next.js", "React Server Components", "TailwindCSS"],
+  website: "https://christophstach.me",
     repository: "https://github.com/christophstach/christophstach-website",
   },
   {
@@ -45,9 +45,9 @@ const projects: Project[] = [
   {
     title: "Covid SpiNGS - Realtime Variant Caller",
     description: `
-      Introducing a cutting-edge variant caller for next-generation sequencing, designed to analyze incoming BAM files in real-time. This sophisticated tool efficiently stores intermediate results in memory, and upon user request, seamlessly calculates vital statistics. Developed in the Kotlin programming language, the variant caller harnesses the capabilities of the JVM platform.
+      A variant caller for next-generation sequencing, designed to analyze incoming BAM files in real-time. This sophisticated tool efficiently stores intermediate results in memory, and upon user request, seamlessly calculates vital statistics. Developed in the Kotlin programming language, the variant caller harnesses the capabilities of the JVM platform.
     `,
-    tags: ["Kotlin", "Java", "JVM", "NGS", "SAMtools", "htsjdk"],
+    tags: ["Kotlin", "Java", "JVM", "NGS", "SAMtools", "HTSJDK"],
     website:
       "https://www.htw-berlin.de/forschung/online-forschungskatalog/projekte/projekt/?eid=3100",
     repository: "https://github.com/COVID-SpiNGS/realtime-variant-caller",

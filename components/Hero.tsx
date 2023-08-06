@@ -14,7 +14,8 @@ export default function Hero() {
             A software engineer with a passion for webtechnologies, especially
             frontend development. Currently I like to use{" "}
             <strong>TypeScript</strong>, <strong>React</strong>,{" "}
-            <strong>SolidJS</strong>, and <strong>TailwindCSS</strong>.
+            <strong>SolidJS</strong>, <strong>VueJS</strong>, and{" "}
+            <strong>TailwindCSS</strong>.
           </p>
         </div>
         <div className="flex items-center justify-center">

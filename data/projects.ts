@@ -29,8 +29,14 @@ const projects: Project[] = [
     description: `
     Redesign website with a dark mode option, replacing the previous Angular with Bootstrap iteration.
     `,
-    tags: ["TypeScript", "React", "Next.js", "React Server Components", "TailwindCSS"],
-  website: "https://christophstach.me",
+    tags: [
+      "TypeScript",
+      "React",
+      "Next.js",
+      "React Server Components",
+      "TailwindCSS",
+    ],
+    website: "https://christophstach.me",
     repository: "https://github.com/christophstach/christophstach-website",
   },
   {

@@ -1,4 +1,4 @@
-import { addMonths, format, isBefore } from "date-fns";
+import { format, isBefore } from "date-fns";
 import { Briefcase } from "lucide-react";
 
 import Timeline from "./timeline/Timeline";
@@ -6,29 +6,39 @@ import Timeline from "./timeline/Timeline";
 export function getExperienceData() {
   return [
     {
+      title: "Senior Full-Stack Engineer",
+      company: "MBition GmbH (Mercedes-Benz)",
+      description: "",
+      bullets: [
+        "Shipped end-to-end features across Nuxt and NestJS: designed REST contracts, integrated APIs, and built reusable UI components",
+        "Enforced strict TypeScript and ESLint, significantly reducing runtime errors",
+        "Consolidated multiple products into a pnpm monorepo, cutting build times by ~50% and enabling end-to-end type-safety and better DX",
+        "Standardized Azure DevOps CI/CD (lint → test → build → release), improving deployment success rates and release traceability",
+        "Implemented a Role-Based Access Control (RBAC) system using CASL.js",
+      ],
+      from: new Date(2023, 9, 1),
+      to: new Date(),
+      current: true,
+    },
+    {
       title: "Frontend Engineer",
       company: "DERICON GmbH",
       description: "",
       bullets: [
-        "Develop user interfaces using ReactJS and Remix for internal software",
-        "Enhance web-based software frontend with Angular (v2+)",
-        "Create PHP Symfony middleware to integrate AngularJS (v1) frontend with REST API",
-        "Set up a monorepo architecture for multiple Vue.js (Nuxt) projects",
+        "Launched a graph-based no-code workflow builder (React/Remix) that let non-technical users model and deploy workflows independently",
+        "Delivered new features on an Angular-based frontend, modernizing components and improving performance and accessibility",
+        "Built middleware and UI integrations to bridge legacy systems with modern REST APIs, simplifying data flows and de-risking migrations",
       ],
       from: new Date(2016, 11, 1),
-      to: addMonths(new Date(), 1),
-      current: true,
+      to: new Date(2023, 9, 31),
     },
     {
       title: "Fullstack Developer",
       company: "SLH GmbH",
       description: "",
       bullets: [
-        "Implement new features for a web-based software in PHP",
-        "Create a new frontend using Sencha ExtJS",
-        "Debug and resolve PHP-based business logic issues",
-        "Develop features with ASP.NET MVC and Entity Framework",
-        "Utilize GIT SCM workflows for version control",
+        "Modernized a legacy frameset-based PHP/HTML/CSS/JS application into a modular frontend/back-end architecture, rebuilding the UI with ExtJS and establishing a clean PHP backend to improve maintainability and feature velocity",
+        "Collaborated with stakeholders to prioritize requirements, deliver new features, and resolve defects quickly",
       ],
       from: new Date(2011, 9, 1),
       to: new Date(2014, 10, 30),
@@ -49,8 +59,8 @@ export function getExperienceData() {
       company: "Kortmann Beton GmbH & Co. KG",
       description: "",
       bullets: ["Develop and maintain the company website"],
-      from: new Date(2011, 6, 1),
-      to: new Date(2011, 9, 30),
+      from: new Date(2009, 6, 1),
+      to: new Date(2011, 6, 30),
     },
   ];
 }

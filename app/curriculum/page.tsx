@@ -19,10 +19,19 @@ export default function Curriculum() {
 
       <section className="mb-10">
         <p>
-          On this page, you{"'"}ll find a rundown of my education, professional
-          experience, and skills. I{"'"}m always looking to learn new things and
-          push myself to be the best I can be, and this page is a way for me to
-          show you what I{"'"}ve been up to.
+          Here you{"'"}ll find a concise overview of my professional experience
+          and education. I{"'"}ve spent the last decade building modern web
+          applications as a full‑stack engineer, mainly with{" "}
+          <strong>Vue/Nuxt</strong>, <strong>React/Next.js</strong>,{" "}
+          <strong>NestJS</strong>, and relational and document databases like
+          PostgreSQL and MongoDB.
+        </p>
+        <p>
+          The timelines below mirror my CV: recent work on Nuxt/NestJS products
+          at MBition (Mercedes‑Benz), several years of frontend engineering with
+          React, Remix, Vue, Nuxt, and Angular, and a strong academic background
+          with a B.Sc. and M.Sc. in Applied Computer Science focusing on AI,
+          bioinformatics, deep learning, and data science.
         </p>
       </section>
 

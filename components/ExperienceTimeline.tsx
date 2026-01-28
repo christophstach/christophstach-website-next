@@ -6,10 +6,11 @@ import Timeline from "./timeline/Timeline";
 export function getExperienceData() {
   return [
     {
-      title: "Senior Full-Stack Engineer",
+      title: "Senior Full Stack Engineer",
       company: "MBition GmbH (Mercedes-Benz)",
       description: "",
       bullets: [
+        "Tech: Vue, Nuxt, TypeScript, NestJS, PostgreSQL, MongoDB, Azure DevOps",
         "Shipped end-to-end features across Nuxt and NestJS: designed REST contracts, integrated APIs, and built reusable UI components",
         "Enforced strict TypeScript and ESLint, significantly reducing runtime errors",
         "Consolidated multiple products into a pnpm monorepo, cutting build times by ~50% and enabling end-to-end type-safety and better DX",
@@ -25,6 +26,7 @@ export function getExperienceData() {
       company: "DERICON GmbH",
       description: "",
       bullets: [
+        "Tech: React, Remix, Vue, Nuxt, Angular, TypeScript",
         "Launched a graph-based no-code workflow builder (React/Remix) that let non-technical users model and deploy workflows independently",
         "Delivered new features on an Angular-based frontend, modernizing components and improving performance and accessibility",
         "Built middleware and UI integrations to bridge legacy systems with modern REST APIs, simplifying data flows and de-risking migrations",
@@ -33,10 +35,11 @@ export function getExperienceData() {
       to: new Date(2023, 9, 31),
     },
     {
-      title: "Fullstack Developer",
+      title: "Full Stack Developer",
       company: "SLH GmbH",
       description: "",
       bullets: [
+        "Tech: JavaScript, ExtJS, REST, PHP, Symfony, MySQL",
         "Modernized a legacy frameset-based PHP/HTML/CSS/JS application into a modular frontend/back-end architecture, rebuilding the UI with ExtJS and establishing a clean PHP backend to improve maintainability and feature velocity",
         "Collaborated with stakeholders to prioritize requirements, deliver new features, and resolve defects quickly",
       ],
@@ -44,10 +47,11 @@ export function getExperienceData() {
       to: new Date(2014, 10, 30),
     },
     {
-      title: "Fullstack Developer",
+      title: "Full Stack Developer",
       company: "CREAVIVA GmbH & Co. KG",
       description: "",
       bullets: [
+        "Tech: PHP, MySQL, CSS, JavaScript, TYPO3",
         "Manage and create content for websites using PHP, MySQL, CSS, and JavaScript",
         "Develop websites with TYPO3 CMS, including custom TYPO3 extension creation",
       ],

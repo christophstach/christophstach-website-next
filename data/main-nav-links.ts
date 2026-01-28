@@ -18,10 +18,10 @@ const mainNavLinks: MainNavLink[] = [
     href: "/curriculum",
     text: "Curriculum",
   },
-  {
-    href: "/projects",
-    text: "Projects",
-  },
+  // {
+    // href: "/projects",
+    // text: "Projects",
+  // },
 ];
 
 export default mainNavLinks;

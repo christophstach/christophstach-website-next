@@ -13,26 +13,23 @@ export default function Home() {
       <h2>Home</h2>
 
       <p>
-        Hey there! Thanks for stopping by my personal website. My name is
-        Christoph and I{"'"}m a software developer, data scientist, and tech
-        enthusiast. I{"'"}m always looking to learn new things and push myself
-        to be the best I can be, and this website is a way for me to share my
-        journey with you.
+        Hey, I{"'"}m Christoph — a full‑stack engineer based in Berlin with 10+
+        years of experience building modern web applications. I work across{" "}
+        <strong>Vue/Nuxt</strong>, <strong>React/Next.js</strong>, and{" "}
+        <strong>Angular</strong>, with a strong focus on clean, type‑safe code,
+        usability, accessibility, and performance.
       </p>
       <p>
-        On this site, you{"'"}ll find out a little bit more about me and what I
-        {"'"}m interested in. I{"'"}m really passionate about using technology
-        to solve problems and make people{"'"}s lives better, which is why I
-        {"'"}ve chosen to work in the tech industry. I{"'"}ve got a solid
-        foundation in computer science and I{"'"}m skilled in a bunch of
-        different programming languages and tools.
+        Currently I{"'"}m a Senior Full Stack Engineer at MBition (Mercedes‑Benz)
+        working with Nuxt, NestJS, PostgreSQL, MongoDB and Azure DevOps — from
+        REST API design and backend services to reusable UI components, monorepo
+        tooling, and CI/CD pipelines.
       </p>
       <p>
-        I hope you find something interesting here and that you{"'"}ll stick
-        around for a while. Whether you{"'"}re a tech enthusiast like me, a
-        potential employer, or just someone who stumbled upon my website by
-        accident, I{"'"}m glad you{"'"}re here. If you{"'"}ve got any questions
-        or just want to chat, don{"'"}t hesitate to reach out. You can{" "}
+        On this site you can read more <a href="/about-me">about me</a>, browse
+        my <a href="/projects">projects</a>, or explore my{" "}
+        <a href="/curriculum">curriculum</a> with details on roles, tech stacks,
+        and education. If you{"'"}d like to get in touch, feel free to{" "}
         <a href="https://www.linkedin.com/in/christoph-stach-7586b958/">
           connect with me on LinkedIn
         </a>

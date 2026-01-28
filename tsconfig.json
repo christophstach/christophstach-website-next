@@ -35,7 +35,7 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts"
-  ],
+, "app/projects/page.tsx.bak", "app/projects/opengraph-image.tsx.bak"  ],
   "exclude": [
     "node_modules"
   ]
